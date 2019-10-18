@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>HTMLworldBlog</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"></meta>
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.menubutton').click(function() {
+                    $('nav').slideToggle('slow');
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <section id="menubar">
+            <ul>
+                <li><a class ="menubutton" href="#menu"><img src="img/menu_button.png" /></a></li>
+            </ul>
+        </section>
+        <header>
+            <h1>HTMLworldBlog</h1>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html" >Tutorials</a></li>
+                <li><a href="index.html" >Videos</a></li>
+                <li><a href="index.html" >Community</a></li>
+                <li><a href="index.html" >About</a></li>
+            </ul>
+        </nav>
+        <section id="main">
+            <article>
+                <h2>Das ist ein Artikel</h2>
+                <img src="img/strand.png"/>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+            </article>
+            <aside>
+                <section>
+                    <h2>Weitere Artikel</h2>
+                    <ul>
+                        <li>Noch ein spanndender Artikel</li>
+                        <li>Diesen musst du auch lesen</li>
+                        <li>Und diesen Artikel auch</li>
+                    </ul>                    
+                </section>
+                <section>
+                    <h2>Ein Textfeld</h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+                </section>
+                <section>
+                    <ul>
+                        <li>HTML Tutorials</li>
+                        <li>CSS Tutorial</li>
+                        <li>PHP Tutorial</li>
+                        <li>jquery</li>
+                        <li>ToolTipps</li>
+                    </ul>
+                </section>
+            </aside>
+        </section>
+        <footer>
+            <ul>
+                <li>&copy: 2014 HTMLworld</li>
+                <li>Impressum</li>
+                <li>Kontakt</li>
+                <li>Datenschutz</li>
+            </ul>
+        </footer>
+    </body>
+</html>
